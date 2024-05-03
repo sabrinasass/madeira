@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 import pandas as pd
 from Massaki01 import *
 
@@ -12,6 +13,9 @@ def main():
    Escrever('Biblioteca teste para facilitar o desenvolvimento de sites a qualquer pessoa leiga na Programação.', 'subcabecalho')
    Escrever(' ')
    Escrever('Observação: Em desenvolvimento!', 'subcabecalho')
+   image = Image.open('desenvolvimento.jpg')
+   st.sidebar.image(image, width=300)
+	
    CONTAINER = Container(True)
    with CONTAINER: 
       MKD('Biblioteca teste para facilitar o desenvolvimento de sites a qualquer pessa leiga na Programação.', "justified", 20, "black")
