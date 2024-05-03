@@ -4,11 +4,11 @@ from Massaki01 import *
 
 MKD(Versao(), 'left', 18, 'blue')
    
-MKD('⬜ Barra_Lateral_Texto', 'left', 48, 'darkblue')
+MKD('⬜ Massaki01 - Biblioteca teste 01', 'left', 48, 'darkblue')
    
-Escrever('Esta função permite adicionar alguns elementos de texto com estilos específicos na Barra Lateral.', 'subcabecalho')
+Escrever('Biblioteca teste para facilitar o desenvolvimento de sites a qualquer pessa leiga na Programação.', 'subcabecalho')
 Escrever(' ')
-Escrever('Observação: ', 'subcabecalho')
+Escrever('Observação: Em desenvolvimento!', 'subcabecalho')
 CONTAINER = Container(True)
 with CONTAINER: 
         MKD('Biblioteca teste para facilitar o desenvolvimento de sites a qualquer pessa leiga na Programação.', "justified", 20, "black")
