@@ -4,7 +4,7 @@ from Massaki01 import *
 
 Indice()
     
- MKD(Versao(), 'left', 18, 'blue')
+MKD(Versao(), 'left', 18, 'blue')
    
 MKD('⬜ Barra_Lateral_Texto', 'left', 48, 'darkblue')
    
