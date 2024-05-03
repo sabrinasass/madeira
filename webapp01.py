@@ -17,7 +17,7 @@ def main():
 	
    CONTAINER = Container(True)
    with CONTAINER: 
-      MKD('Biblioteca teste para facilitar o desenvolvimento de sites a qualquer pessa leiga na Programação.', "justified", 20, "black")
+      MKD('Biblioteca teste para facilitar o desenvolvimento de sites a qualquer pessoa leiga na Programação.', "justified", 20, "black")
     
    Barra_Lateral_Texto("Desenvolvido por Massaki Igarashi")
 
