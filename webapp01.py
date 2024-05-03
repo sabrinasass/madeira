@@ -7,7 +7,7 @@ def main():
   
    MKD(Versao(), 'left', 18, 'blue')
       
-   MKD('⬜ Massaki01 - Biblioteca teste', 'left', 48, 'darkblue')
+   MKD('⬜ sabrina - Biblioteca teste de madeira', 'left', 48, 'darkblue')
       
    Escrever('Hehehehe! Agora todos poderão fazer seu site e programar facilmente!', 'subcabecalho')
    Escrever(' ')
