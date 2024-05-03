@@ -9,7 +9,7 @@ def main():
       
    MKD('⬜ Massaki01 - Biblioteca teste', 'left', 48, 'darkblue')
       
-   Escrever('Biblioteca teste para facilitar o desenvolvimento de sites a qualquer pessoa leiga na Programação.', 'subcabecalho')
+   Escrever('Hehehehe! Agora todos poderão fazer seu site e programar facilmente!', 'subcabecalho')
    Escrever(' ')
    Escrever('Observação: Em desenvolvimento!', 'subcabecalho')
    image = Image.open('desenvolvimento.jpg')
